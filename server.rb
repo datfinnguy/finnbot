@@ -2,7 +2,7 @@ require 'twilio-ruby'
 require 'sinatra'
 
 get '/' do
-  puts "Hello from FinnBot"
+  "Hello from FinnBot!"
 end
 
 post '/sms' do
